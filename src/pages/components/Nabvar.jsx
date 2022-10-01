@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             <div className='py-8 w-10/12 mx-auto'>
-                <div className="flex flex-row bg-transparent justify-between items-center p-3">
+                <div className="flex flex-row bg-transparent justify-between items-center p-0 md:p-3">
                     {/*logo goes here*/}
                     <div className="text-4xl font-bold">
                         <h1>Logo</h1>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 {/* main content goes here */}
-                <div className="flex flex-row gap-7 justify-center text-base font-medium flex md:hidden p-3">
+                <div className="flex flex-row gap-3 md:gap-7 justify-center text-base font-medium flex md:hidden p-3">
                     <h1>About</h1>
                     <h1>Skills</h1>
                     <h1>Projects</h1>
