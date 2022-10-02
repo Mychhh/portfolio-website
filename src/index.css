@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
 body{
     font-family: poppins;
 }
