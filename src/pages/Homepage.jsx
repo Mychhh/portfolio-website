@@ -1,9 +1,9 @@
 import LandingPage1 from "./landingpage/Landingpage1";
 
-const Homepage = () => {
+const HomePage = () => {
     return ( 
         <LandingPage1/>
     );
 }
  
-export default Homepage;
+export default HomePage;
