@@ -1,7 +1,7 @@
-import linkedin from '../../img/linkedin-logo.png';
-import instagram from '../../img/instagram-logo.png';
-import facebook from '../../img/facebook-logo.png';
-import tiktok from '../../img/tiktok-logo.png';
+// import linkedin from '../../img/linkedin-logo.png';
+// import instagram from '../../img/instagram-logo.png';
+// import facebook from '../../img/facebook-logo.png';
+// import tiktok from '../../img/tiktok-logo.png';
 import sun from '../../img/sun.png';
 import moon from '../../img/moon.png';
 
@@ -47,10 +47,10 @@ const Navbar = () => {
 
                     {/* side content goes here */}
                     <div className="flex flex-row gap-2 text-sm">
-                        <a href="#"><img src={linkedin} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a>
+                        {/* <a href="#"><img src={linkedin} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a>
                         <a href="#"><img src={instagram} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a>
                         <a href="#"><img src={facebook} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a>
-                        <a href="#"><img src={tiktok} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a>
+                        <a href="#"><img src={tiktok} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a> */}
                         <button><img src={icon} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200 duration-200' onClick={handleTheme} /></button>
                     </div>
                 </div>

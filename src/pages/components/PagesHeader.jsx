@@ -17,8 +17,7 @@ const PagesHeader = () => {
             case '/AboutPage':
                 setHeader(header = 'About')
                 setDescription(description = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nam debitis perspiciatis sunt ad tempore excepturi quasi veritatis quis rerum molestiae ratione, perferendis quibusdam iure fugiat quos, quam possimus quo!')
-                // setButton(button = <button className="px-3 py-1 border-solid border-2 border-black hover:scale-110 duration-200   dark:border-white dark:text-white">View Resume</button>)
-                setButton(button = <button className="text-xs border border-1 border-black px-4 py-1 dark:border-white hover:scale-110 duration-200  md:text-lg md:px-8 md:py-2 dark:text-white">View Resume</button>)
+                setButton(button = <button className='text-xs bg-black px-4 py-1 text-white border border-1 border-black  hover:scale-110 duration-200 dark:bg-white dark:border-white dark:text-black md:text-lg md:px-8 md:py-2'>View Resume</button>)
                 break;
             case '/SkillsPage':
                 setHeader(header = 'Skills')
