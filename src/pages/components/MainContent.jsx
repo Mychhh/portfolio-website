@@ -17,10 +17,10 @@ const MainContent = () => {
                     <div className="col-span-5 row-span-1 order-2 space-y-2 md:space-y-10 md:col-span-3 md:order-1 dark:text-white">
                         {/* <h3 className='text-xs md:text-4xl font-light '>Welcome to my website</h3> */}
                         <div className='flex flex-row gap-x-5'>
-                            <a href="#"><img src={linkedin} alt="faceboook-logo" className='h-7 hover:scale-110 duration-200' /></a>
-                            <a href="#"><img src={instagram} alt="faceboook-logo" className='h-7 hover:scale-110 duration-200' /></a>
-                            <a href="#"><img src={facebook} alt="faceboook-logo" className='h-7 hover:scale-110 duration-200' /></a>
-                            <a href="#"><img src={tiktok} alt="faceboook-logo" className='h-7 hover:scale-110 duration-200' /></a>
+                            <a href="#"><img src={linkedin} alt="faceboook-logo" className='h-5 md:h-7 hover:scale-110 duration-200' /></a>
+                            <a href="#"><img src={instagram} alt="faceboook-logo" className='h-5 md:h-7 hover:scale-110 duration-200' /></a>
+                            <a href="#"><img src={facebook} alt="faceboook-logo" className='h-5 md:h-7 hover:scale-110 duration-200' /></a>
+                            <a href="#"><img src={tiktok} alt="faceboook-logo" className='h-5 md:h-7 hover:scale-110 duration-200' /></a>
                         </div>
                         <div>
                             <h1 className='text-base md:text-4xl font-bold '>Hello, I'm Michael</h1>
