@@ -6,7 +6,7 @@ import sun from '../../img/sun.png';
 import moon from '../../img/moon.png';
 
 import { NavLink } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const Navbar = () => {
 
