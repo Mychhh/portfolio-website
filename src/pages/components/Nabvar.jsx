@@ -57,9 +57,9 @@ const Navbar = () => {
                 {/* main content goes here */}
                 <div className="flex flex-row gap-3 md:gap-7 justify-center text-base font-medium flex md:hidden p-3 dark:text-white">
                     <NavLink to="/AboutPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>About</NavLink>
-                    <NavLink to="/ContactPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Skills</NavLink>
+                    <NavLink to="/SkillsPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Skills</NavLink>
                     <NavLink to="/ProjectPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Projects</NavLink>
-                    <NavLink to="/SkillsPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Contacts</NavLink>
+                    <NavLink to="/ContactPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Contacts</NavLink>
                 </div>
             </div>
         </>
