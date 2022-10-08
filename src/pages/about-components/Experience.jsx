@@ -1,6 +1,9 @@
 import Dot from '../../img/new-moon.png'
 
 const Experience = () => {
+    
+    // Change the Image into shape
+
     return (
         <>
             <p className="text-base md:text-4xl font-bold py-5">Experience</p>
