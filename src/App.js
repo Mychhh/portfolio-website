@@ -5,6 +5,7 @@ import ContactPage from './pages/ContactPage'
 import ProjectPage from './pages/ProjectPage'
 import SkillsPage from './pages/SkillsPage'
 
+import Footer from './pages/components/Footer';
 import Navbar from "./pages/components/Nabvar";
 import {Route, Routes} from 'react-router-dom';
 
@@ -19,7 +20,7 @@ function App() {
                 <Route path='/ProjectPage' element={<ProjectPage />}/>
                 <Route path='/SkillsPage' element={<SkillsPage />}/>
             </Routes>
-            
+            <Footer/>
         </div>
     );
 }
