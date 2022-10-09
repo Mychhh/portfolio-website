@@ -1,0 +1,17 @@
+{
+    "TechStack": 
+    [
+        {
+            "name": "HTML",
+            "img": "colorless gas"            
+        },
+        {
+            "name": "CSS",
+            "img": "colorless gas"            
+        },
+        {
+            "name": "JavaScript",
+            "img": "colorless gas"            
+        }
+    ]
+}

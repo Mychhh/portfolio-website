@@ -1,8 +1,5 @@
-import linkedin from '../../img/linkedin-logo.png';
-import instagram from '../../img/instagram-logo.png';
-import facebook from '../../img/facebook-logo.png';
-import tiktok from '../../img/tiktok-logo.png';
 import profile from '../../img/black-profile.jpg';
+import Socials from './Socials';
 
 const MainContent = () => {
     return (
@@ -15,13 +12,10 @@ const MainContent = () => {
 
                     {/* text */}
                     <div className="col-span-5 row-span-1 order-2 space-y-2 md:space-y-10 md:col-span-3 md:order-1 dark:text-white">
-                        {/* <h3 className='text-xs md:text-4xl font-light '>Welcome to my website</h3> */}
-                        <div className='flex flex-row gap-x-5'>
-                            <a href="#"><img src={linkedin} alt="faceboook-logo" className='h-5 md:h-7 hover:scale-110 duration-200' /></a>
-                            <a href="#"><img src={instagram} alt="faceboook-logo" className='h-5 md:h-7 hover:scale-110 duration-200' /></a>
-                            <a href="#"><img src={facebook} alt="faceboook-logo" className='h-5 md:h-7 hover:scale-110 duration-200' /></a>
-                            <a href="#"><img src={tiktok} alt="faceboook-logo" className='h-5 md:h-7 hover:scale-110 duration-200' /></a>
-                        </div>
+                        
+                        {/* Socials Icon */}
+                        <Socials/>
+                        
                         <div>
                             <h1 className='text-base md:text-4xl font-bold '>Hello, I'm Michael</h1>
                             <h1 className='text-base md:text-4xl font-bold '>Full Stack Web Developer</h1>

@@ -37,25 +37,21 @@ const Navbar = () => {
                         <NavLink to="/">Logo</NavLink>
                     </div>
 
-                    {/* main content goes here */}
-                    <div className="flex flex-row gap-5 text-base font-medium hidden dark:text-white md:flex">
+                    {/* main navbar content goes here */}
+                    <div className="flex flex-row gap-5 text-sm md:text-base font-medium hidden dark:text-white md:flex">
                         <NavLink to="/AboutPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>About</NavLink>
                         <NavLink to="/SkillsPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Skills</NavLink>
                         <NavLink to="/ProjectPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Projects</NavLink>
                         <NavLink to="/ContactPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Contacts</NavLink>
                     </div>
 
-                    {/* side content goes here */}
+                    {/* side navbar content goes here */}
                     <div className="flex flex-row gap-2 text-sm">
-                        {/* <a href="#"><img src={linkedin} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a>
-                        <a href="#"><img src={instagram} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a>
-                        <a href="#"><img src={facebook} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a>
-                        <a href="#"><img src={tiktok} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' /></a> */}
                         <button><img src={icon} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200 duration-200' onClick={handleTheme} /></button>
                     </div>
                 </div>
                 {/* main content goes here */}
-                <div className="flex flex-row gap-3 md:gap-7 justify-center text-base font-medium flex md:hidden p-3 dark:text-white">
+                <div className="flex flex-row gap-3 md:gap-7 justify-center text-sm font-medium flex md:hidden p-3 dark:text-white">
                     <NavLink to="/AboutPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>About</NavLink>
                     <NavLink to="/SkillsPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Skills</NavLink>
                     <NavLink to="/ProjectPage" style={ActiveNav} className='hover:scale-110 duration-200 px-1'>Projects</NavLink>
