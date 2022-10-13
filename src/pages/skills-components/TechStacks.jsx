@@ -32,39 +32,39 @@ const TechStacks = () => {
 
     const [stacks, setStacks] = useState(
         [
-            {id: 1, name: 'HTML', img: HTML},
-            {id: 2, name: 'CSS', img: CSS },
-            {id: 3, name: 'JS', img: JS },
-            {id: 4, name: 'PHP', img: PHP },
-            {id: 5, name: 'JAVA', img: JAVA },
-            {id: 6, name: 'C#', img: Csharp },
+            {id: 1, name: 'HTML', img: HTML, link: 'https://www.w3schools.com/html/default.asp'},
+            {id: 2, name: 'CSS', img: CSS, link: 'https://web.dev/learn/css/' },
+            {id: 3, name: 'JS', img: JS, link: 'https://www.w3schools.com/js/default.asp' },
+            {id: 4, name: 'PHP', img: PHP, link: 'https://www.php.net/' },
+            {id: 5, name: 'JAVA', img: JAVA, link: 'https://www.tutorialspoint.com/java/java_documentation.htm' },
+            {id: 6, name: 'C#', img: Csharp, link: 'https://www.tutorialspoint.com/csharp/index.htm' },
         ]
     );
 
     const [libraFrame, setLibraFrame] = useState(
         [
-            {id: 1, name: 'Bootstrap', img: BootsStrap},
-            {id: 2, name: 'Chakra UI', img: ChakraUI },
-            {id: 3, name: 'Tailwind CSS', img: Tailwind },
-            {id: 4, name: 'React JS', img: ReactJS },
-            {id: 5, name: 'Alpine JS', img: AlpineJS },
-            {id: 6, name: 'Laravel', img: Laravel },
+            {id: 1, name: 'Bootstrap', img: BootsStrap, link: 'https://getbootstrap.com/docs/5.2/getting-started/introduction/'},
+            {id: 2, name: 'Chakra UI', img: ChakraUI, link: 'https://chakra-ui.com/getting-started' },
+            {id: 3, name: 'Tailwind CSS', img: Tailwind, link: 'https://tailwindcss.com/docs/installation' },
+            {id: 4, name: 'React JS', img: ReactJS, link: 'https://reactjs.org/docs/getting-started.html' },
+            {id: 5, name: 'Alpine JS', img: AlpineJS, link: 'https://alpinejs.dev/' },
+            {id: 6, name: 'Laravel', img: Laravel, link: 'https://laravel.com/docs/9.x' },
         ]
     );
 
     const [dataBase, setDataBase] = useState(
         [
-            {id: 1, name: 'MySQL', img: MySQL},
-            {id: 2, name: 'MsSQL', img: MsSQL },
+            {id: 1, name: 'MySQL', img: MySQL, link: 'https://www.w3schools.com/sql/default.asp' },
+            {id: 2, name: 'MsSQL', img: MsSQL, link: 'https://www.w3schools.com/sql/default.asp'  },
         ]
     );
 
     const [otherTools, setOtherTools] = useState(
         [
-            {id: 1, name: 'Github', img: Github},
-            {id: 2, name: 'Notion', img: Notion },
-            {id: 3, name: 'Figma', img: Figma },
-            {id: 4, name: 'Postman', img: Postman },
+            {id: 1, name: 'Github', img: Github, link: 'https://github.com/'},
+            {id: 2, name: 'Notion', img: Notion, link: 'https://www.notion.so/' },
+            {id: 3, name: 'Figma', img: Figma, link: 'https://www.figma.com/downloads/' },
+            {id: 4, name: 'Postman', img: Postman, link: 'https://www.postman.com/' },
         ]
     );
 
