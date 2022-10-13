@@ -19,6 +19,7 @@ import MsSQL from '../../img/MsSQL.jpg'
 import Github from '../../img/Github.jpg'
 import Notion from '../../img/Notion.jpeg'
 import Figma from '../../img/Figma.jfif'
+import Postman from '../../img/postman.png'
 
 import { useState } from 'react'
 
@@ -63,6 +64,7 @@ const TechStacks = () => {
             {id: 1, name: 'Github', img: Github},
             {id: 2, name: 'Notion', img: Notion },
             {id: 3, name: 'Figma', img: Figma },
+            {id: 4, name: 'Postman', img: Postman },
         ]
     );
 
