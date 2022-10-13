@@ -34,7 +34,7 @@ const TechStacks = () => {
         [
             {id: 1, name: 'HTML', img: HTML, link: 'https://www.w3schools.com/html/default.asp'},
             {id: 2, name: 'CSS', img: CSS, link: 'https://web.dev/learn/css/' },
-            {id: 3, name: 'JS', img: JS, link: 'https://www.w3schools.com/js/default.asp' },
+            {id: 3, name: 'JS', img: JS, link: 'https://www.w3schools.com/js/default.asp'},
             {id: 4, name: 'PHP', img: PHP, link: 'https://www.php.net/' },
             {id: 5, name: 'JAVA', img: JAVA, link: 'https://www.tutorialspoint.com/java/java_documentation.htm' },
             {id: 6, name: 'C#', img: Csharp, link: 'https://www.tutorialspoint.com/csharp/index.htm' },
