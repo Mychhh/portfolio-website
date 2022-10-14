@@ -40,7 +40,7 @@ const PagesHeader = () => {
             <div className="w-11/12 mx-auto bg-gray-300 dark:bg-[#272829]">
 
                 <div className="w-11/12 mx-auto  flex flex-col py-4 gap-5">
-                    <h1 className="font-bold text-6xl md:text-8xl  dark:text-white">{header}</h1>
+                    <h1 className="pages-header font-bold text-6xl md:text-8xl  dark:text-white">{header}</h1>
 
                     <p className="dark:text-white text-md">{description}</p>
 

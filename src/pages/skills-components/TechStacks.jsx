@@ -61,7 +61,7 @@ const TechStacks = () => {
 
     const [otherTools, setOtherTools] = useState(
         [
-            {id: 1, name: 'Github', img: Github, link: 'https://github.com/'},
+            {id: 1, name: 'Github', img: Github, link: 'https://github.com/Mychhh'},
             {id: 2, name: 'Notion', img: Notion, link: 'https://www.notion.so/' },
             {id: 3, name: 'Figma', img: Figma, link: 'https://www.figma.com/downloads/' },
             {id: 4, name: 'Postman', img: Postman, link: 'https://www.postman.com/' },
