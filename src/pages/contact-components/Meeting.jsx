@@ -32,9 +32,9 @@ const Meeting = () => {
                     <div className='absolute top-0'>
                         <div className='flex bg-gray-300 dark:bg-[#272829] rounded p-5 pb-3 w-full md:w-10/12 mx-auto md:w-auto justify-center relative'>
                             <p className='message-content text-black dark:text-white md:text-lg px-0 md:px-5'>{messageContent}</p>
-                            <button className='absolute top-2.5 right-2.5'
+                            <button className='absolute top-2 right-2'
                                     onClick={handleMessage}>
-                                <img src={Close} alt="close button"className='h-3'/>
+                                <img src={Close} alt="close button"className='h-5'/>
                             </button>
                         </div>
                     </div>
