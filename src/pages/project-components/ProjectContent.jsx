@@ -5,6 +5,7 @@ import Img2 from '../../img/2.jpg'
 const ProjectContent = () => {
     return ( 
         <>
+        
             <div className="w-10/12 mx-auto py-5 dark:text-white mt-10">
                 <div className="grid grid-cols-10 gap-10">
 
