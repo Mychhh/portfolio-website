@@ -16,7 +16,7 @@ const Database = (props) => {
                 <div className="grid grid-cols-12 py-5 dark:text-white gap-5">
 
                     {dataBase.map((database) => (
-                        <div key={database.id} className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 hover:relative hover:bottom-2 transition duration-1000 ease-in-out delay-150 drop-shadow-lg">
+                        <div key={database.id} className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 hover:-translate-y-3 duration-300 drop-shadow-lg">
                             <a href={database.link} target="_blank">
                                 <div className="flex flex-row items-center w-full bg-gray-300 dark:bg-[#272829] py-2">
                                     <div className='flex justify-center w-2/4'>

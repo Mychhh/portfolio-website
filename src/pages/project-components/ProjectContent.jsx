@@ -9,11 +9,11 @@ const ProjectContent = () => {
             <div className="w-10/12 mx-auto py-5 dark:text-white mt-10">
                 <div className="grid grid-cols-10 gap-10">
 
-                    <div className="col-span-10 md:col-span-5 bg-gray-300">
-                        <img src={Img1} alt="ProjectImage" className='object-contain'/>
+                    <div className="col-span-10 md:col-span-5">
+                        <img src={Img1} alt="ProjectImage" className='object-contain rounded-lg hover:skew-3 hover:translate-x-6 duration-300'/>
                     </div>
                     
-                    <div className="col-span-10 md:col-span-5 bg-gray-300">
+                    {/* <div className="col-span-10 md:col-span-5 bg-gray-300">
                         <img src={Img2} alt="ProjectImage" className='object-contain'/>
                     </div>
 
@@ -31,7 +31,7 @@ const ProjectContent = () => {
                     
                     <div className="col-span-10 md:col-span-5 bg-gray-300">
                         <img src={Img2} alt="ProjectImage" className='object-contain'/>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
