@@ -39,7 +39,7 @@ const Email = () => {
 
                 <div className='w-11/12 mx-auto '>   
                 
-                    <form ref={form} onSubmit={sendEmail} className='bg-gray-300 dark:bg-[#272829] dark:text-white rounded h-full text-black p-5 md:p-10'>
+                    <form ref={form} onSubmit={sendEmail} className='bg-gray-300 dark:bg-[#272829] dark:text-white rounded h-full text-black p-5 md:p-10 drop-shadow-xl'>
 
                         <div className='flex flex-col gap-2 justify-start'>
 
@@ -59,7 +59,7 @@ const Email = () => {
                                 <label className='text-lg font-light '>Message</label>
                                 <textarea required name="message" className='rounded shadow-2xl p-5 focus:bg-gray-100 dark:text-black' />
                             </div>
-
+                            
                             <div className='flex flex-row gap-5 items-center'>
                                 <button type="submit" value="Send" className='rounded bg-black px-5 py-2 text-white hover:scale-110 duration-200'>
                                     Send
