@@ -1,10 +1,6 @@
-// import linkedin from '../../img/linkedin-logo.png';
-// import instagram from '../../img/instagram-logo.png';
-// import facebook from '../../img/facebook-logo.png';
-// import tiktok from '../../img/tiktok-logo.png';
 import sun from '../../img/sun.png';
 import moon from '../../img/moon.png';
-
+import logo from '../../img/owl-logo.jfif'
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -33,8 +29,8 @@ const Navbar = () => {
             <div className='py-8 w-10/12 mx-auto'>
                 <div className="flex flex-row bg-transparent justify-between items-center p-0 md:p-3">
                     {/*logo goes here*/}
-                    <div className="text-4xl font-bold dark:text-white">
-                        <NavLink to="/">Logo</NavLink>
+                    <div>
+                        <NavLink to="/"><img src={logo} alt="logo" className="h-14 rounded-full hover:scale-110 duration-300"/></NavLink>
                     </div>
 
                     {/* main navbar content goes here */}

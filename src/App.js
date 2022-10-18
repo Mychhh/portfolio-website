@@ -14,7 +14,7 @@ function App() {
         <div className="App h-screen dark:bg-[#121212]">
             <Navbar/>
             <Routes>
-                <Route path='/' element={<HomePage />}/>
+                <Route exact path='/' element={<HomePage />}/>
                 <Route path='/AboutPage' element={<AboutPage />}/>
                 <Route path='/ContactPage' element={<ContactPage />}/>
                 <Route path='/ProjectPage' element={<ProjectPage />}/>
