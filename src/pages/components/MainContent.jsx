@@ -21,7 +21,7 @@ const MainContent = () => {
                             <h1 className='text-base md:text-4xl font-bold '>Hello, I'm Michael</h1>
                             <h1 className='text-base md:text-4xl font-bold '>Full Stack Web Developer</h1>
                         </div>
-                        <p className='text-xs md:text-xl font-light '>I am a motivated Junior Web Developer that has an experience in developing projects that solves specific problem. I also make content on TikTok to share some stuff that I like.</p>
+                        <p className='text-xs md:text-xl font-light '>I am a motivated Junior Web Developer that has an experience in developing projects that solves specific problem. I also make content on TikTok to share some stuff that I love.</p>
                         <div className='flex flex-row gap-3'>
                             <Link to="/ContactPage">
                                 <button className='text-xs bg-black px-4 py-1 text-white border border-1 border-black  hover:scale-110 duration-200 dark:bg-white dark:border-white dark:text-black md:text-lg md:px-8 md:py-2'>Reach me out</button>
