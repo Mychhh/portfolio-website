@@ -115,7 +115,7 @@ const ProjectContent = () => {
             <div className="w-10/12 mx-auto py-5 dark:text-white mt-10">
                 <div className="grid grid-cols-10 gap-10 justify-center relative">
                     {Images.map((image) => (
-                        <div key={image.id} className="theproject col-span-10 md:col-span-5 w-full h-80 bg-gradient-to-r from-gray-300 to-gray-700 dark:from-[#272829] dark:to-[#191c1a] relative overflow-hidden">
+                        <div key={image.id} className="theproject col-span-10 md:col-span-5 w-full h-80 bg-gradient-to-r from-gray-300 to-gray-700 dark:from-[#272829] dark:to-[#191c1a] relative overflow-hidden drop-shadow-2xl">
                             <p className='absolute top-10 left-10 text-lg font-light text-white bg-black rounded px-3 z-10'>{image.ProjectName}</p>
                             <button
                             onClick={() => {
@@ -123,7 +123,7 @@ const ProjectContent = () => {
                                 handleImg();
                             }}
                             >
-                                <img src={image.ProjectImage} alt="ProjectImage" className='object-cover h-full w-full hover:scale-150 duration-1000 absolute md:left-1/4 top-0 pr-0 md:pr-44 py-5 ' />
+                                <img src={image.ProjectImage} alt="ProjectImage" className='object-cover h-full w-full hover:scale-150 duration-1000 absolute md:left-1/4 top-0 pr-0 md:pr-20 lg:pr-44 py-5 ' />
                             </button>
                         </div>
                     ))}
