@@ -15,19 +15,19 @@ const Landingpage2 = () => {
         <div className="bg-[#EDE8E8] dark:bg-[#272829] p-10 ">
             
             <div className='mb-5 md:mb-10 flex justify-center w-full'>
-                <h1 className="inline text-center text-2xl md:text-4xl font-semibold border-b border-black px-3">Recent Projects</h1>
+                <h1 className="inline text-center text-2xl md:text-4xl font-semibold border-b border-black dark:border-white px-3 dark:text-white">Recent Projects</h1>
             </div>
 
             <div className="w-10/12 mx-auto flex flex-col gap-10">
 
                 {Projects.map((project) => (
 
-                <div key={project.id} className="flex flex-col md:flex-row gap-5 md:gap-10 drop-shadow-2xl">
+                <div key={project.id} className="flex flex-col md:flex-row gap-5 md:gap-10 drop-shadow-2xl dark:text-white">
                     <div className='w-full md:w-3/6'>
                         <img src={project.img} alt="Project picture"/>
                     </div>
 
-                    <div className='flex flex-col justify-center items-start w-full md:w-3/6'>
+                    <div className='flex flex-col justify-center items-start w-full md:w-3/6 gap-3'>
 
                         <p className='text-lg md:text-2xl font-medium'>{project.title}</p>
 

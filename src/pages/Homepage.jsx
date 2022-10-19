@@ -4,7 +4,8 @@ import Landingpage2 from "./landingpage/Landingpage2";
 const HomePage = () => {
     return (
         <>
-            <LandingPage1 />
+            <LandingPage1/>
+
             <Landingpage2 />
         </>
     );

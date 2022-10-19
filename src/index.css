@@ -27,5 +27,14 @@ body{
     .pages-header{
         font-size: 50px;
     }
+    .profilepic{
+        margin-bottom: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .profilepic{
+        margin-bottom: 3rem;
+    }
   }
 

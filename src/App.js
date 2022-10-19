@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from './pages/HomePage';
+import HomePage from './pages/Homepage';
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import ProjectPage from './pages/ProjectPage'
@@ -11,7 +11,7 @@ import {Route, Routes} from 'react-router-dom';
 
 function App() {
     return (
-        <div className="App h-screen dark:bg-[#121212]">
+        <div className="App dark:bg-[#121212]">
             <Navbar/>
             <Routes>
                 <Route exact path='/' element={<HomePage />}/>
