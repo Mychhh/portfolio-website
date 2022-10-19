@@ -16,7 +16,20 @@ const ProjectContent = () => {
         { id: 3, ProjectName: 'Philhealth Redesign', ProjectImage: Project1Practice2, ProjectDescription: 'The design of this website is from Alanniz a tiktok content creator, I just coded it for my practice', ProjectStacks: 'HTML, CSS, Bootstap.', ProjectLink: 'https://mychhh.github.io/Mychhh-philhealth-redesign.github.io/'},
         { id: 4, ProjectName: 'PTable', ProjectImage: MiniProject2, ProjectDescription: 'Best in mini project 2 in KodeGo. The PTable consolidates useful information about the chemical elements into a single location.', ProjectStacks: 'ReactJS, ChakraUi, Bootstrap, Public API.', ProjectLink: 'https://kodego-miniproject2.vercel.app/'},
         { id: 5, ProjectName: 'School Portal', ProjectImage: MiniProject3, ProjectDescription: 'Capstone Project in KodeGo. The School Portal Designed for public schools, to disseminate information regarding school activities and requirements. With online enrollment.', ProjectStacks: 'Tailwind CSS, Alpine JS, Laravel, Livewire.(TALL stack)', ProjectLink: 'https://kodegohighschool.tech/'},
-    ]
+    ];
+
+    // this will get first the length of array of object
+    const length = Images.length;
+
+    //this is the container  for stack images array of object 
+    const StackImages = []
+
+    //this will iterate through the images object
+    for(let i = 0; i < length; i++){
+        let pops = Images.pop();
+        StackImages.push(pops);
+    }
+
 
     const [clickedProject, setClickedProject] = useState({   
         clickedName: null, 
@@ -29,7 +42,7 @@ const ProjectContent = () => {
     const handleImg = () => {
         setViewImg(!viewImg);
     }
-
+    
     const handleClickedImg = (name, img, desc, stack, link) => {
         
         setClickedProject.clickedName = name;
@@ -114,7 +127,7 @@ const ProjectContent = () => {
 
             <div className="w-10/12 mx-auto py-5 dark:text-white mt-10">
                 <div className="grid grid-cols-10 gap-10 justify-center relative">
-                    {Images.map((image) => (
+                    {StackImages.map((image) => (
                         <div key={image.id} className="theproject col-span-10 md:col-span-5 w-full h-80 bg-gradient-to-r from-gray-300 to-gray-700 dark:from-[#272829] dark:to-[#191c1a] relative overflow-hidden drop-shadow-2xl">
                             <p className='absolute top-10 left-10 text-lg font-light text-white bg-black rounded px-3 z-10'>{image.ProjectName}</p>
                             <button
