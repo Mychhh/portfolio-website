@@ -43,7 +43,7 @@ const ProjectContent = () => {
     const handleImg = () => {
         setViewImg(!viewImg);
     }
-    
+
     const handleClickedImg = (name, img, desc, stack, link) => {
         
         setClickedProject.clickedName = name;
@@ -128,7 +128,7 @@ const ProjectContent = () => {
 
             <div className="w-10/12 mx-auto py-5 dark:text-white mt-10">
                 <div className="grid grid-cols-10 gap-10 justify-center relative">
-                    {StackImages.map((image) => (
+                    {Images.map((image) => (
                         <div key={image.id} className="theproject col-span-10 md:col-span-5 w-full h-80 bg-gradient-to-r from-gray-300 to-gray-700 dark:from-[#272829] dark:to-[#191c1a] relative overflow-hidden drop-shadow-2xl">
                             <p className='absolute top-10 left-10 text-lg font-light text-white bg-black rounded px-3 z-10'>{image.ProjectName}</p>
                             <button
