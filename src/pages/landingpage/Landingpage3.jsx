@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Landingpage3 = () => {
     return ( 
         <>
-            <div className="dark:bg-[#272829] p-10 ">
+            <div className="dark:bg-black p-10 mb-5 md:mb-10">
                 <div className="w-10/12 mx-auto flex flex-col md:flex-row gap-0 md:gap-10">
 
                     <div className="order-2 md:order-none flex items-center justify-center pt-10 w-full md:w-6/12">
