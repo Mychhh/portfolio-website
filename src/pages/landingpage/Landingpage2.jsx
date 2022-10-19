@@ -41,7 +41,7 @@ const Landingpage2 = () => {
                 <div className='flex justify-end w-3/6 ml-auto'>
                     <div className='flex justify-center w-full'>
                         <Link to="/ProjectPage">
-                            <button className='text-xs bg-black px-4 py-1 text-white border border-1 border-black  hover:scale-110 duration-200 dark:bg-white dark:border-white dark:text-black md:text-lg md:px-8 md:py-2'>View All</button>
+                            <button className='text-xs bg-black px-4 py-1 text-white border border-1 border-black  hover:scale-110 duration-200 dark:bg-white dark:border-white dark:text-black md:text-lg md:px-8 md:py-2'>View all my projects</button>
                         </Link>
                     </div>
                 </div>
