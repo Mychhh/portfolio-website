@@ -1,6 +1,6 @@
-import sampleimg from '../../img/1.jpg'
-import Capstone from '../../img/MiniProject3Capstone.jpg'
-import MiniProject2 from '../../img/MiniProject2.png'
+import sampleimg from '../../img/1.webp'
+import Capstone from '../../img/MiniProject3Capstone.webp'
+import MiniProject2 from '../../img/MiniProject2.webp'
 
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ const Landingpage2 = () => {
     ]
 
     return (
-        <div className="bg-[#EDE8E8] dark:bg-[#272829] p-10 ">
+        <div className="bg-[#EDE8E8] dark:bg-[#272829] px-0 py-10 md:px-10 ">
             
             <div className='mb-5 md:mb-10 flex justify-center w-full'>
                 <h1 className="inline text-center text-2xl md:text-4xl font-semibold border-b border-black dark:border-white px-3 dark:text-white">Recent Projects</h1>

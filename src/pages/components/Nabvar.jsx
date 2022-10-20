@@ -1,6 +1,6 @@
-import sun from '../../img/sun.png';
-import moon from '../../img/moon.png';
-import logo from '../../img/owl-logo.jfif'
+import sun from '../../img/sun.webp';
+import moon from '../../img/moon.webp';
+import logo from '../../img/owl-logo.webp'
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 

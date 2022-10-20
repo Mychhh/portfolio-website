@@ -1,4 +1,4 @@
-import Dot from '../../img/new-moon.png'
+import Dot from '../../img/new-moon.webp'
 
 const Experience = () => {
 

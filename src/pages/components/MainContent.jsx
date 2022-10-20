@@ -1,4 +1,4 @@
-import profile from '../../img/black-profile.jpg';
+import profile from '../../img/black-profile.webp';
 import Socials from './Socials';
 import { Link } from 'react-router-dom';
 

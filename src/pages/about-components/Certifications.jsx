@@ -1,9 +1,9 @@
-import profile from '../../img/SampleImage.jpg';
-import kodego from '../../img/KodeGoCertificate.PNG';
-import oracle from '../../img/OracleDatabase.PNG';
-import sap from '../../img/SAPBusinessOne.PNG';
+import profile from '../../img/SampleImage.webp';
+import kodego from '../../img/KodeGoCertificate.webp';
+import oracle from '../../img/OracleDatabase.webp';
+import sap from '../../img/SAPBusinessOne.webp';
 
-import close from '../../img/close.png'
+import close from '../../img/close.webp'
 import { useState } from 'react';
 
 const Certifications = () => {
