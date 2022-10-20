@@ -30,7 +30,7 @@ const BackToTopButton = () => {
         <>  
             {BackToTop 
                 && 
-            <button className="fixed w-7 bottom-5 right-5 md:bottom-10 md:w-10 md:right-10"
+            <button className="fixed w-7 bottom-5 right-5 md:bottom-10 md:w-10 md:right-10 dark:bg-white dark:rounded-full"
             onClick={scrollUp}><img src={up} alt="up" /></button>}  
         </>
     );

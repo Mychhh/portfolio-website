@@ -45,10 +45,10 @@ const PagesHeader = () => {
             <div className="w-11/12 mx-auto bg-gray-300 dark:bg-[#272829]">
 
                 <div className="w-11/12 mx-auto  flex flex-col py-4 gap-5">
-                    <h1 className="pages-header font-bold text-6xl md:text-8xl  dark:text-white">{header}</h1>
+                    <h1 className="pages-header font-bold text-4xl md:text-8xl  dark:text-white">{header}</h1>
 
                     <div className="inline">
-                        <p className="dark:text-white text-md inline">{description}</p>
+                        <p className="dark:text-white text-sm md:text-lg inline">{description}</p>
                         <p className="dark:text-white border-b dark:border-white border-black inline"><a href={github} target="_blank" rel="noopener noreferrer">{git}</a></p>
                     </div>
 

@@ -43,25 +43,25 @@ const Email = () => {
 
                         <div className='flex flex-col gap-2 justify-start'>
 
-                            <h1 className='text-lg font-medium '>Send a message</h1>
+                            <h1 className='text-md md:text-lg font-medium '>Send a message</h1>
 
                             <div className='flex flex-col'>
-                                <label className='text-lg font-light '>Name</label>
+                                <label className='text-sm md:text-lg font-light '>Name</label>
                                 <input required type="text" name="name" className='rounded shadow-2xl h-10 p-5 focus:bg-gray-100 dark:text-black' />
                             </div>
 
                             <div className='flex flex-col'>
-                                <labe className='text-lg font-light ' >Email</labe>
+                                <labe className='text-sm md:text-lg font-light ' >Email</labe>
                                 <input required type="email" name="email" className='rounded shadow-2xl h-10 p-5 focus:bg-gray-100 dark:text-black' />
                             </div>
 
                             <div className='flex flex-col'>
-                                <label className='text-lg font-light '>Message</label>
+                                <label className='text-sm md:text-lg font-light '>Message</label>
                                 <textarea required name="message" className='rounded shadow-2xl p-5 focus:bg-gray-100 dark:text-black' />
                             </div>
                             
                             <div className='flex flex-row gap-5 items-center'>
-                                <button type="submit" value="Send" className='rounded bg-black px-5 py-2 text-white hover:scale-110 duration-200'>
+                                <button type="submit" value="Send" className='rounded bg-black px-5 py-2 text-sm md:text-lg text-white hover:scale-110 duration-200'>
                                     Send
                                 </button>    
                                 {/* {emailSent && <p className='font-normal text-sm'>Your message has been sent!</p> } */}
