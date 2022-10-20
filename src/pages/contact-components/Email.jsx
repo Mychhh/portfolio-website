@@ -1,5 +1,5 @@
 import emailjs from '@emailjs/browser';
-import Close from '../../img/close.png'
+import Close from '../../img/close.webp'
 import { useRef, useState } from 'react';
 
 const Email = () => {

@@ -1,7 +1,7 @@
-import Phone from '../../img/telephone.png';
-import Gmail from '../../img/gmail.png';
-import Schedule from '../../img/schedule.png';
-import Close from '../../img/close.png'
+import Phone from '../../img/telephone.webp';
+import Gmail from '../../img/gmail.webp';
+import Schedule from '../../img/schedule.webp';
+import Close from '../../img/close.webp'
 const Meeting = () => {
 
     return (

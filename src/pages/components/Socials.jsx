@@ -1,8 +1,8 @@
-import linkedin from '../../img/linkedin-logo.png';
-import instagram from '../../img/instagram-logo.png';
-import facebook from '../../img/facebook-logo.png';
-import tiktok from '../../img/tiktok-logo.png';
-import github from '../../img/github.png'
+import linkedin from '../../img/linkedin-logo.webp';
+import instagram from '../../img/instagram-logo.webp';
+import facebook from '../../img/facebook-logo.webp';
+import tiktok from '../../img/tiktok-logo.webp';
+import github from '../../img/githubb.webp'
 
 const Socials = () => {
     return (

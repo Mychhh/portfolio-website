@@ -1,6 +1,6 @@
-import sampleimg from '../../img/1.jpg'
-import Capstone from '../../img/MiniProject3Capstone.jpg'
-import MiniProject2 from '../../img/MiniProject2.png'
+import sampleimg from '../../img/1.webp'
+import Capstone from '../../img/MiniProject3Capstone.webp'
+import MiniProject2 from '../../img/MiniProject2.webp'
 
 import { Link } from 'react-router-dom';
 

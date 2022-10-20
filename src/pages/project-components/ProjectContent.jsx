@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
-import Project1 from '../../img/MiniProject1.png'
-import Project1Practice1 from '../../img/MiniProject1Practice1.png'
-import Project1Practice2 from '../../img/MiniProject1Practice2.png'
-import MiniProject2 from '../../img/MiniProject2.png'
-import MiniProject3 from '../../img/MiniProject3Capstone.jpg'
-import close from '../../img/close.png'
+import Project1 from '../../img/MiniProject1.webp'
+import Project1Practice1 from '../../img/MiniProject1Practice1.webp'
+import Project1Practice2 from '../../img/MiniProject1Practice2.webp'
+import MiniProject2 from '../../img/MiniProject2.webp'
+import MiniProject3 from '../../img/MiniProject3Capstone.webp'
+import close from '../../img/close.webp'
 
 const ProjectContent = () => {
 
@@ -92,7 +92,7 @@ const ProjectContent = () => {
 
                         {/* button to close */}
                         <button onClick={handleImg} className="hidden md:flex">
-                            <img src={close} alt="close" className='h-7 absolute top-3 right-3'/>
+                            <img src={close} alt="close" className='h-7 rounded-full dark:bg-white absolute top-3 right-3'/>
                         </button>
 
                         {/* header */}
