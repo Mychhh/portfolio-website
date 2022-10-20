@@ -1,6 +1,7 @@
 import LandingPage1 from "./landingpage/Landingpage1";
 import Landingpage2 from "./landingpage/Landingpage2";
 import Landingpage3 from "./landingpage/Landingpage3";
+import BackToTopButton from "./components/BackToTopButton";
 
 const HomePage = () => {
     return (
@@ -8,6 +9,7 @@ const HomePage = () => {
             <LandingPage1/>
             <Landingpage2/>
             <Landingpage3/>
+            <BackToTopButton/>
         </>
     );
 }
