@@ -3,6 +3,8 @@ import SkilllsContent from "./skills-components/SkillsContent";
 
 const SkillsPage = () => {
 
+    document.title = "Skills - Michael"; 
+
     return (
         <div className="dark:bg-[#121212]">
             <PagesHeader />

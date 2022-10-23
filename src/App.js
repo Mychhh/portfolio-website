@@ -10,6 +10,7 @@ import Navbar from "./pages/components/Nabvar";
 import {Route, Routes} from 'react-router-dom';
 
 function App() {
+
     return (
         <div className="App dark:bg-[#121212]">
             <Navbar/>

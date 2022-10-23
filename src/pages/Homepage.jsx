@@ -4,6 +4,9 @@ import Landingpage3 from "./landingpage/Landingpage3";
 import BackToTopButton from "./components/BackToTopButton";
 
 const HomePage = () => {
+    
+    document.title = "Michael - Software Developer"; 
+    
     return (
         <>
             <LandingPage1/>
