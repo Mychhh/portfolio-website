@@ -6,7 +6,7 @@ const MainContent = () => {
     return (
         <>
             {/* size */}
-            <div className="w-10/12 mx-auto flex pt-5 md:pt-20 pb-20 lg:mb-20">
+            <div className="w-10/12 mx-auto flex pt-5 md:pt-16 pb-24 lg:mb-20">
 
                 {/* content */}
                 <div className="grid grid-cols-5 grid-rows-2 justify-items-center items-center md:grid-rows-1 w-11/12 mx-auto">

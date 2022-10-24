@@ -30,7 +30,7 @@ const Navbar = () => {
                 <div className="flex flex-row bg-transparent justify-between items-center p-0 md:p-3">
                     {/*logo goes here*/}
                     <div>
-                        <NavLink to="/"><img src={logo} alt="logo" className="h-14 rounded-full hover:scale-110 duration-300"/></NavLink>
+                        <NavLink to="/"><img src={logo} alt="logo" className="h-14 md:h-20 rounded-full hover:scale-110 duration-300 dark:bg-white"/></NavLink>
                     </div>
 
                     {/* main navbar content goes here */}
@@ -43,7 +43,7 @@ const Navbar = () => {
 
                     {/* side navbar content goes here */}
                     <div className="flex flex-row gap-2 text-sm">
-                        <button><img src={icon} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200 duration-200' onClick={handleTheme} /></button>
+                        <button><img src={icon} alt="faceboook-logo" className='h-6 hover:scale-110 duration-200' onClick={handleTheme} /></button>
                     </div>
                 </div>
                 {/* main content goes here */}
