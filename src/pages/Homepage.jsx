@@ -5,7 +5,7 @@ import BackToTopButton from "./components/BackToTopButton";
 
 const HomePage = () => {
     
-    document.title = "Michael - Software Developer"; 
+    document.title = "Michael - Full Stack Web Developer"; 
     
     return (
         <>
