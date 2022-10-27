@@ -43,7 +43,7 @@ const Certifications = () => {
             <div className='flex flex-col gap-y-2'>
                 {certifications.map((certificate, key) => {
                     return(
-                        <div className='flex flex-col w-10/12 mx-auto relative' key={key}>
+                        <div data-aos="zoom-in" data-aos-duration="1000" className='flex flex-col w-10/12 mx-auto relative' key={key}>
                             
                             {/* <p className='absolute top-1/3 left-1/3 right-1/3 bottom-1/3 font-semibold text-lg'>From KodeGo</p> */}
                             

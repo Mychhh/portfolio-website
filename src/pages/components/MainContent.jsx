@@ -35,7 +35,7 @@ const MainContent = () => {
 
                     {/* img */}
                     <div className="profilepic col-span-5 row-span-1 order-1 justify-self-center md:col-span-2 md:order-2 md:justify-self-end">
-                        <div className='profile h-52 md:h-96 bg-black dark:bg-white'>
+                        <div data-aos="fade-left" data-aos-duration="1000" className='profile h-52 md:h-96 bg-black dark:bg-white'>
                             <img src={profile} alt="Profile" className='profile h-52 md:h-96 relative top-5 right-5' />
                         </div>
                     </div>
