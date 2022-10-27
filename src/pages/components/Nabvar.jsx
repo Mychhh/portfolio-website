@@ -2,9 +2,12 @@ import sun from '../../img/sun.webp';
 import moon from '../../img/moon.webp';
 import logo from '../../img/owl-logo.webp'
 import { NavLink } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
+
+    const userTheme = localStorage.removeItem('theme');
+    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
     let [icon, setIcon] = useState(sun);
 
@@ -23,6 +26,16 @@ const Navbar = () => {
             borderBottom: isActive ? '1px solid gray' : 'none'
         }
     }
+
+    useEffect(() => {
+        if( userTheme === 'dark' || (!userTheme && systemTheme)){
+            document.documentElement.classList.add('dark')
+            setIcon(icon = moon)
+        } else {
+            document.documentElement.classList.remove('dark')
+            setIcon(icon = sun)
+        }
+    },[])
 
     return (
         <>
