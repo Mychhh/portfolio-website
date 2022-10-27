@@ -4,6 +4,7 @@ import MiniProject2 from '../../img/MiniProject2.webp'
 
 import { Link } from 'react-router-dom';
 
+
 const Landingpage2 = () => {
 
     const Projects = [
@@ -24,7 +25,7 @@ const Landingpage2 = () => {
 
                 <div key={project.id} className="flex flex-col md:flex-row gap-5 md:gap-10 drop-shadow-2xl dark:text-white">
                     <div className='w-full md:w-3/6'>
-                        <img src={project.img} alt="Project picture"/>
+                        <img data-aos="zoom-in" data-aos-duration="1000" src={project.img} alt="Project picture"/>
                     </div>
 
                     <div className='flex flex-col justify-center items-start w-full md:w-3/6 gap-3'>

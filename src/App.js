@@ -1,4 +1,3 @@
-import React from 'react';
 import HomePage from './pages/Homepage';
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
@@ -8,8 +7,16 @@ import SkillsPage from './pages/SkillsPage'
 import Footer from './pages/components/Footer';
 import Navbar from "./pages/components/Nabvar";
 import {Route, Routes} from 'react-router-dom';
+import {React, useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+    
+    useEffect(() => {
+        AOS.init();
+    },[])
 
     return (
         <div className="App dark:bg-[#121212]">
