@@ -7,7 +7,7 @@ import SkillsPage from './pages/SkillsPage'
 import Footer from './pages/components/Footer';
 import Navbar from "./pages/components/Nabvar";
 import {Route, Routes} from 'react-router-dom';
-import {React, useEffect } from 'react';
+import {React, useEffect, useState } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -18,8 +18,20 @@ function App() {
         AOS.init();
     },[])
 
+    const [loading, setLoading] = useState(true);
+    const loader = document.getElementById('loader');
+
+    if(loading){
+        setTimeout(()=>{
+            loader.style.display = "none";
+            setLoading(false);
+        },2000);
+    }
+
     return (
-        <div className="App dark:bg-[#121212]">
+        !loading
+        &&
+        (<div className="App dark:bg-[#121212]">
             <Navbar/>
             <Routes>
                 <Route exact path='/' element={<HomePage />}/>
@@ -29,7 +41,8 @@ function App() {
                 <Route path='/SkillsPage' element={<SkillsPage />}/>
             </Routes>
             <Footer/>
-        </div>
+        </div>)
+        
     );
 }
 
