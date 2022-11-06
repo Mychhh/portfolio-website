@@ -12,6 +12,11 @@ import {React, useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+//try to use this function on different files
+function s (){
+    console.log("Hello");
+}
+
 function App() {
     
     useEffect(() => {
