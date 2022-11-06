@@ -25,12 +25,13 @@ function App() {
         setTimeout(()=>{
             loader.style.display = "none";
             setLoading(false);
-        },2000);
+        },1000);
     }
 
     return (
         !loading
         &&
+        
         (<div className="App dark:bg-[#121212]">
             <Navbar/>
             <Routes>

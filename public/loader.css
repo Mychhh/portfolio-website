@@ -9,10 +9,43 @@
     justify-content: center;
     width: 100vw;
     height: 100vh; 
+    background-color: rgb(177, 184, 185);
 }
 
-.loading-message img{
+#loader-logo{
     margin: 1rem auto;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
 }
+
+.ring{
+    position: absolute;
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    animation: ring 2s linear infinite;
+}
+
+@keyframes ring {
+    0%{
+      transform: rotate(0deg);
+      box-shadow: 1px 2px 2px #000000;
+    }
+    50%{
+      transform: rotate(180deg);
+      box-shadow: 1px 2px 2px #a5a5a5;
+    }
+    100%{
+      transform: rotate(360deg);
+      box-shadow: 1px 2px 2px #0d0d0d;
+    }
+  }
+  .ring:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
