@@ -41,7 +41,8 @@ const Certifications = () => {
             </div>
 
             <div className='flex flex-col gap-y-2'>
-                {certifications.map((certificate, key) => {
+                {certifications.map((certificate, key) => { 
+                    
                     return(
                         <div data-aos="zoom-in" data-aos-duration="1000" className='flex flex-col w-10/12 mx-auto relative' key={key}>
                             
@@ -62,6 +63,7 @@ const Certifications = () => {
                     );
                 })}
             </div>
+
         </>
     );
 }

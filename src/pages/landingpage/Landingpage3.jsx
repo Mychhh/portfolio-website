@@ -9,7 +9,7 @@ const Landingpage3 = () => {
 
                     <div className="order-2 md:order-none flex items-center justify-center pt-10 w-full md:w-6/12">
                         <div className="flex flex-col gap-5 w-10/12 md:w-9/12">
-                            <p className="dark:text-white text-sm md:text-lg font-light">If you want to know more about me. Just click the button below to view all my contacts and send me a message, or just leave me a message here</p>
+                            <p className="dark:text-white text-sm md:text-lg font-light">If you want to know more about me. Just click the button below to view all my contacts and send me a message, or just leave me a note here</p>
                             <Link to="/ContactPage">
                                 <button className='text-xs bg-black px-4 py-1 text-white border border-1 border-black  hover:scale-110 duration-200 dark:bg-white dark:border-white dark:text-black md:text-lg md:px-8 md:py-2'>View all my contacts</button>
                             </Link>
