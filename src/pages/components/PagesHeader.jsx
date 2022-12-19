@@ -19,7 +19,7 @@ const PagesHeader = () => {
             case '/AboutPage':
                 setHeader(header = 'About')
                 setDescription(description = 'Hi! Im a full-stack web developer. I work on projects like School Registration System and Resource Website. Im also doing basic desktop application. I like coding and building projects that will solve peoples problem.')
-                setButton(button = <a href="https://drive.google.com/file/d/1mTaBpDJDKRIHPoNm9Me4qLGbH4prDieS/view?usp=sharing" target="_blank"><button className='text-xs bg-black px-4 py-1 text-white border border-1 border-black  hover:scale-110 duration-200 dark:bg-white dark:border-white dark:text-black md:text-lg md:px-8 md:py-2'>View Resume</button></a>)
+                setButton(button = <a href="https://drive.google.com/file/d/1qDc4aZWqO_u9X7PgWOWeWgHTD2ITgQD9/view?usp=share_link" target="_blank"><button className='text-xs bg-black px-4 py-1 text-white border border-1 border-black  hover:scale-110 duration-200 dark:bg-white dark:border-white dark:text-black md:text-lg md:px-8 md:py-2'>View Resume</button></a>)
                 break;
             case '/SkillsPage':
                 setHeader(header = 'Skills')
